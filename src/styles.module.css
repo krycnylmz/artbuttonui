@@ -1,9 +1,98 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
 }
+
+
+.default {
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 10px #000;
+  border-radius: 0.5em;
+  transition: all 0.5s;
+}
+.default:hover {
+  background-color: #d4d6d8;
+}
+.default:active {
+  background-color: rgb(247, 230, 2);
+  box-shadow: none;
+
+}
+
+.primary {
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  background-color: rgb(10, 194, 178);
+  box-shadow: 0 10px #000;
+  border-radius: 0.5em;
+  transition: all 0.5s;
+}
+.primary:hover {
+  background-color: #d4d6d8;
+}
+.primary:active {
+  background-color: rgb(247, 230, 2);
+  box-shadow: none;
+}
+
+.dashed {
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 10px #000;
+  border-radius: 0.5em;
+  border-style: dotted;
+  transition: all 0.5s;
+}
+.dashed:hover {
+  background-color: #d4d6d8;
+}
+.dashed:active {
+  background-color: rgb(247, 230, 2);
+  box-shadow: none;
+}
+
+.text {
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 10px #000;
+  border:0px solid black;
+  border-radius: 0.5em;
+  transition: all 0.5s;
+}
+.text:hover {
+  background-color: #d4d6d8;
+}
+.text:active {
+  background-color: rgb(247, 230, 2);
+  box-shadow: none;
+}
+
+.link {
+  padding: 0.5em;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.5em;
+  transition: all 0.5s;
+  color: rgb(0, 39, 124);
+  border:none;
+  font-weight: bold;
+}
+

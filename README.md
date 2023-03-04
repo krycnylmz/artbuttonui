@@ -1,8 +1,8 @@
 # artbuttonui
 
-> Button component with awesome ui
+> Button component with funny ui
 
-[![NPM](https://img.shields.io/npm/v/artbuttonui.svg)](https://www.npmjs.com/package/artbuttonui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![screen shot]("./src/img/ss.png")
 
 ## Install
 
@@ -15,12 +15,12 @@ npm install --save artbuttonui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'artbuttonui'
+import Button from 'artbuttonui'
 import 'artbuttonui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button type="primary"/>
   }
 }
 ```
