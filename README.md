@@ -2,7 +2,7 @@
 
 > Button component with funny ui
 
-![screen shot]("./img/ss.png")
+![screen shot]("./src/img/ss.png")
 
 ## Install
 
