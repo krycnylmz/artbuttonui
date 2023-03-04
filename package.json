@@ -1,8 +1,8 @@
 {
   "name": "artbuttonui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Button component with awesome ui",
-  "author": "krycnylmz",
+  "author": "Koray Can Yılmaz",
   "license": "MIT",
   "repository": "krycnylmz/artbuttonui",
   "main": "dist/index.js",
